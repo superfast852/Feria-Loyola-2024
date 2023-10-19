@@ -1,0 +1,11 @@
+numpy
+numba
+networkx
+lap
+filterpy
+pynetworktables
+rplidar-roboticia
+pyserial
+# yolov8
+
+# git clone https://github.com/WongKinYiu/yolov7.git  || git clone https://github.com/ultralytics/yolov8.git

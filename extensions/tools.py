@@ -1,3 +1,17 @@
+import math
+
+
+def getAngle(x, y):
+    if x == 0 and y == 0:
+        return 0.0
+
+    angulo = math.degrees(math.atan2(y, x) - math.pi/2)
+
+    if angulo < 0:
+        angulo += 360
+
+    return angulo
+
 
 
 class XboxController:

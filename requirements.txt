@@ -6,6 +6,7 @@ filterpy
 pynetworktables
 rplidar-roboticia
 pyserial
+adafruit-circuitpython-ina219
 # yolov8
 
 # git clone https://github.com/WongKinYiu/yolov7.git  || git clone https://github.com/ultralytics/yolov8.git

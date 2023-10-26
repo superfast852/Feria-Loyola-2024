@@ -3,10 +3,12 @@ from HAL import *
 
 class Robot:
     def __init__(self):
-        pass
+        self.drive = Drive()
+        self.bat = Bateria()
 
     def goTo(self):
         pass
 
     def exit(self):
-        pass
+        self.drive.exit()
+        self.bat.exit()
